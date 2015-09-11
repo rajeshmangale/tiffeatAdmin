@@ -1,0 +1,65 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#fee782"
+    tools:context=".SelectType" >
+
+    <TextView
+        android:id="@+id/scheduled_textView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/scheduled_imageView"
+        android:layout_below="@+id/scheduled_imageView"
+        android:text="Scheduled"
+        android:textSize="18sp"
+        android:typeface="serif" />
+
+    <TextView
+        android:id="@+id/time_textView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/time_imageView"
+        android:layout_below="@+id/time_imageView"
+        android:layout_marginLeft="20dp"
+        android:text="Trial"
+        android:textSize="18sp"
+        android:typeface="serif" />
+
+    <TextView
+        android:id="@+id/quick_textView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignRight="@+id/quick_imageView"
+        android:layout_below="@+id/quick_imageView"
+        android:layout_marginRight="17dp"
+        android:text="Quick"
+        android:textSize="18sp"
+        android:typeface="serif" />
+
+    <ImageView
+        android:id="@+id/time_imageView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/scheduled_textView"
+        android:layout_alignParentLeft="true"
+        android:src="@drawable/time" />
+
+    <ImageView
+        android:id="@+id/scheduled_imageView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_centerVertical="true"
+        android:src="@drawable/scheduled" />
+
+    <ImageView
+        android:id="@+id/quick_imageView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:layout_alignTop="@+id/scheduled_imageView"
+        android:layout_marginRight="11dp"
+        android:src="@drawable/quick" />
+
+</RelativeLayout>

@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">TiffEat</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+    <string name="splash_name">T  i  f  f  E  a  t</string>
+    <string name="title_activity_select_type">SelectType</string>
+    <string name="title_activity_first_time_use">FirstTimeUse</string>
+
+</resources>
