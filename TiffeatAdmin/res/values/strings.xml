@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">TiffeatAdmin</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="title_activity_tab">TabActivity</string>
+    <string name="title_activity_orders_screen">OrdersScreen</string>
+    <string name="title_activity_meals_screen">MealsScreen</string>
+    <string name="title_activity_customers_screen">CustomersScreen</string>
+    <string name="title_activity_vendors_screen">VendorsScreen</string>
+    <string name="title_activity_add_meal_content_tab">AddMealContentTab</string>
+    <string name="title_activity_add_lunch_screen">AddLunchScreen</string>
+    <string name="title_activity_add_dinner_screen">AddDinnerScreen</string>
+    <string name="title_activity_homepage">Homepage</string>
+
+</resources>

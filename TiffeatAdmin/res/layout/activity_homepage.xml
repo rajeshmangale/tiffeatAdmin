@@ -1,0 +1,62 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#FFF"
+    tools:context="${relativePackage}.${activityClass}" >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:gravity="center"
+        android:orientation="vertical" >
+
+        <Button
+            android:id="@+id/Ordersbutton"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="30dp"
+            android:layout_marginRight="30dp"
+            android:background="#039BE5"
+            android:text="VIEW ORDERS"
+            android:textColor="#FFF"
+            android:textSize="17sp" />
+
+        <Button
+            android:id="@+id/Mealsbutton"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="30dp"
+            android:layout_marginRight="30dp"
+            android:layout_marginTop="10dp"
+            android:background="#039BE5"
+            android:text="VIEW MEALS"
+            android:textColor="#FFF"
+            android:textSize="17sp" />
+
+        <Button
+            android:id="@+id/Customerbutton"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="30dp"
+            android:layout_marginRight="30dp"
+            android:layout_marginTop="10dp"
+            android:background="#039BE5"
+            android:text="VIEW CUSTOMERS"
+            android:textColor="#FFF"
+            android:textSize="17sp" />
+
+        <Button
+            android:id="@+id/Vendorbutton"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="30dp"
+            android:layout_marginRight="30dp"
+            android:layout_marginTop="10dp"
+            android:background="#039BE5"
+            android:text="VIEW VENDORS"
+            android:textColor="#FFF"
+            android:textSize="17sp" />
+    </LinearLayout>
+
+</RelativeLayout>
